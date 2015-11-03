@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34529C591BE912FF00203CA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34529C581BE912FF00203CA5 /* AppDelegate.swift */; };
+		34529C5B1BE912FF00203CA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34529C5A1BE912FF00203CA5 /* ViewController.swift */; };
+		34529C5E1BE912FF00203CA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34529C5C1BE912FF00203CA5 /* Main.storyboard */; };
+		34529C601BE912FF00203CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34529C5F1BE912FF00203CA5 /* Assets.xcassets */; };
+		34529C631BE912FF00203CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34529C611BE912FF00203CA5 /* LaunchScreen.storyboard */; };
+		34529C6E1BE912FF00203CA5 /* IDFAGrabberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34529C6D1BE912FF00203CA5 /* IDFAGrabberTests.swift */; };
+		34529C791BE912FF00203CA5 /* IDFAGrabberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34529C781BE912FF00203CA5 /* IDFAGrabberUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34529C6A1BE912FF00203CA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34529C4D1BE912FF00203CA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34529C541BE912FF00203CA5;
+			remoteInfo = IDFAGrabber;
+		};
+		34529C751BE912FF00203CA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34529C4D1BE912FF00203CA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34529C541BE912FF00203CA5;
+			remoteInfo = IDFAGrabber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34529C551BE912FF00203CA5 /* IDFAGrabber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDFAGrabber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34529C581BE912FF00203CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34529C5A1BE912FF00203CA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34529C5D1BE912FF00203CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34529C5F1BE912FF00203CA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34529C621BE912FF00203CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34529C641BE912FF00203CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34529C691BE912FF00203CA5 /* IDFAGrabberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDFAGrabberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34529C6D1BE912FF00203CA5 /* IDFAGrabberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDFAGrabberTests.swift; sourceTree = "<group>"; };
+		34529C6F1BE912FF00203CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34529C741BE912FF00203CA5 /* IDFAGrabberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDFAGrabberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34529C781BE912FF00203CA5 /* IDFAGrabberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDFAGrabberUITests.swift; sourceTree = "<group>"; };
+		34529C7A1BE912FF00203CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34529C521BE912FF00203CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34529C661BE912FF00203CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34529C711BE912FF00203CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34529C4C1BE912FF00203CA5 = {
+			isa = PBXGroup;
+			children = (
+				34529C571BE912FF00203CA5 /* IDFAGrabber */,
+				34529C6C1BE912FF00203CA5 /* IDFAGrabberTests */,
+				34529C771BE912FF00203CA5 /* IDFAGrabberUITests */,
+				34529C561BE912FF00203CA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34529C561BE912FF00203CA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34529C551BE912FF00203CA5 /* IDFAGrabber.app */,
+				34529C691BE912FF00203CA5 /* IDFAGrabberTests.xctest */,
+				34529C741BE912FF00203CA5 /* IDFAGrabberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34529C571BE912FF00203CA5 /* IDFAGrabber */ = {
+			isa = PBXGroup;
+			children = (
+				34529C581BE912FF00203CA5 /* AppDelegate.swift */,
+				34529C5A1BE912FF00203CA5 /* ViewController.swift */,
+				34529C5C1BE912FF00203CA5 /* Main.storyboard */,
+				34529C5F1BE912FF00203CA5 /* Assets.xcassets */,
+				34529C611BE912FF00203CA5 /* LaunchScreen.storyboard */,
+				34529C641BE912FF00203CA5 /* Info.plist */,
+			);
+			path = IDFAGrabber;
+			sourceTree = "<group>";
+		};
+		34529C6C1BE912FF00203CA5 /* IDFAGrabberTests */ = {
+			isa = PBXGroup;
+			children = (
+				34529C6D1BE912FF00203CA5 /* IDFAGrabberTests.swift */,
+				34529C6F1BE912FF00203CA5 /* Info.plist */,
+			);
+			path = IDFAGrabberTests;
+			sourceTree = "<group>";
+		};
+		34529C771BE912FF00203CA5 /* IDFAGrabberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34529C781BE912FF00203CA5 /* IDFAGrabberUITests.swift */,
+				34529C7A1BE912FF00203CA5 /* Info.plist */,
+			);
+			path = IDFAGrabberUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34529C541BE912FF00203CA5 /* IDFAGrabber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34529C7D1BE912FF00203CA5 /* Build configuration list for PBXNativeTarget "IDFAGrabber" */;
+			buildPhases = (
+				34529C511BE912FF00203CA5 /* Sources */,
+				34529C521BE912FF00203CA5 /* Frameworks */,
+				34529C531BE912FF00203CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDFAGrabber;
+			productName = IDFAGrabber;
+			productReference = 34529C551BE912FF00203CA5 /* IDFAGrabber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34529C681BE912FF00203CA5 /* IDFAGrabberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34529C801BE912FF00203CA5 /* Build configuration list for PBXNativeTarget "IDFAGrabberTests" */;
+			buildPhases = (
+				34529C651BE912FF00203CA5 /* Sources */,
+				34529C661BE912FF00203CA5 /* Frameworks */,
+				34529C671BE912FF00203CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34529C6B1BE912FF00203CA5 /* PBXTargetDependency */,
+			);
+			name = IDFAGrabberTests;
+			productName = IDFAGrabberTests;
+			productReference = 34529C691BE912FF00203CA5 /* IDFAGrabberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34529C731BE912FF00203CA5 /* IDFAGrabberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34529C831BE912FF00203CA5 /* Build configuration list for PBXNativeTarget "IDFAGrabberUITests" */;
+			buildPhases = (
+				34529C701BE912FF00203CA5 /* Sources */,
+				34529C711BE912FF00203CA5 /* Frameworks */,
+				34529C721BE912FF00203CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34529C761BE912FF00203CA5 /* PBXTargetDependency */,
+			);
+			name = IDFAGrabberUITests;
+			productName = IDFAGrabberUITests;
+			productReference = 34529C741BE912FF00203CA5 /* IDFAGrabberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34529C4D1BE912FF00203CA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Matthew Keable";
+				TargetAttributes = {
+					34529C541BE912FF00203CA5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					34529C681BE912FF00203CA5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 34529C541BE912FF00203CA5;
+					};
+					34529C731BE912FF00203CA5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 34529C541BE912FF00203CA5;
+					};
+				};
+			};
+			buildConfigurationList = 34529C501BE912FF00203CA5 /* Build configuration list for PBXProject "IDFAGrabber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34529C4C1BE912FF00203CA5;
+			productRefGroup = 34529C561BE912FF00203CA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34529C541BE912FF00203CA5 /* IDFAGrabber */,
+				34529C681BE912FF00203CA5 /* IDFAGrabberTests */,
+				34529C731BE912FF00203CA5 /* IDFAGrabberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34529C531BE912FF00203CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34529C631BE912FF00203CA5 /* LaunchScreen.storyboard in Resources */,
+				34529C601BE912FF00203CA5 /* Assets.xcassets in Resources */,
+				34529C5E1BE912FF00203CA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34529C671BE912FF00203CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34529C721BE912FF00203CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34529C511BE912FF00203CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34529C5B1BE912FF00203CA5 /* ViewController.swift in Sources */,
+				34529C591BE912FF00203CA5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34529C651BE912FF00203CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34529C6E1BE912FF00203CA5 /* IDFAGrabberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34529C701BE912FF00203CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34529C791BE912FF00203CA5 /* IDFAGrabberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34529C6B1BE912FF00203CA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34529C541BE912FF00203CA5 /* IDFAGrabber */;
+			targetProxy = 34529C6A1BE912FF00203CA5 /* PBXContainerItemProxy */;
+		};
+		34529C761BE912FF00203CA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34529C541BE912FF00203CA5 /* IDFAGrabber */;
+			targetProxy = 34529C751BE912FF00203CA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34529C5C1BE912FF00203CA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34529C5D1BE912FF00203CA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34529C611BE912FF00203CA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34529C621BE912FF00203CA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34529C7B1BE912FF00203CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34529C7C1BE912FF00203CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34529C7E1BE912FF00203CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IDFAGrabber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.palringo.IDFAGrabber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34529C7F1BE912FF00203CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IDFAGrabber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.palringo.IDFAGrabber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34529C811BE912FF00203CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IDFAGrabberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.palringo.IDFAGrabberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDFAGrabber.app/IDFAGrabber";
+			};
+			name = Debug;
+		};
+		34529C821BE912FF00203CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IDFAGrabberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.palringo.IDFAGrabberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDFAGrabber.app/IDFAGrabber";
+			};
+			name = Release;
+		};
+		34529C841BE912FF00203CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IDFAGrabberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.palringo.IDFAGrabberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IDFAGrabber;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		34529C851BE912FF00203CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IDFAGrabberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.palringo.IDFAGrabberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IDFAGrabber;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34529C501BE912FF00203CA5 /* Build configuration list for PBXProject "IDFAGrabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34529C7B1BE912FF00203CA5 /* Debug */,
+				34529C7C1BE912FF00203CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34529C7D1BE912FF00203CA5 /* Build configuration list for PBXNativeTarget "IDFAGrabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34529C7E1BE912FF00203CA5 /* Debug */,
+				34529C7F1BE912FF00203CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34529C801BE912FF00203CA5 /* Build configuration list for PBXNativeTarget "IDFAGrabberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34529C811BE912FF00203CA5 /* Debug */,
+				34529C821BE912FF00203CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34529C831BE912FF00203CA5 /* Build configuration list for PBXNativeTarget "IDFAGrabberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34529C841BE912FF00203CA5 /* Debug */,
+				34529C851BE912FF00203CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34529C4D1BE912FF00203CA5 /* Project object */;
+}
