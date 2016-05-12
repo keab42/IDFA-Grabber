@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import AdSupport
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var idfaField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let myIDFA = ASIdentifierManager.sharedManager().advertisingIdentifier.UUIDString
+        
+        idfaField.text = myIDFA;
+
     }
 
     override func didReceiveMemoryWarning() {
